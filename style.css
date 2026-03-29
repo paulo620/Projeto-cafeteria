@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+.topo {
+    width: 100%;
+    height: 50px;
+    background: #604829;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.topo-conteudo {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-link {
+    display: block;
+    width: 44px;
+    position: absolute;
+    top: 3px;
+    left: 15%;
+}
+
+.logo-link img {
+    width: 40px;
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    top: 15px;
+    right: 15%;
+    font-weight: bold;
+}
+
+.menu a {
+    display: inline;
+    margin-left: 14px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 1px 3px 2px #000000;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-1 {
+    height: 620px;
+    background-image: url("img/parallax-imagem1.png");
+}
+
+.banner-titulo {
+    text-align: center;
+    position: absolute;
+    top: 258px;
+    left: 0;
+    width: 100%;
+}
+
+.banner-titulo h1 {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.bloco-texto {
+    width: 1024px;
+    margin: 0 auto;
+    background: #ffffff;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.bloco-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin: 0 0 24px 0;
+    color: #c4a47c;
+    letter-spacing: 1px;
+}
+
+.bloco-texto p {
+    font-family: 'Lato', sans-serif;
+    width: 820px;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.parallax-2 {
+    height: 330px;
+    background-image: url("img/parallax-imagem2.jpg");
+}
+
+.parallax-3 {
+    height: 330px;
+    background-image: url("img/parallax-imagem3.jpg");
+}
+
+.faixa-frase {
+    text-align: center;
+}
+
+.frase-box {
+    background: #604829;
+    display: inline-block;
+    padding: 8px 20px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.frase-box h3 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.parallax-4 {
+    height: 700px;
+    background-image: url("img/parallax-imagem4.png");
+    text-align: center;
+    padding-top: 84px;
+}
+
+.contatos-titulo {
+    width: 400px;
+    margin: 0 auto;
+    background: #604829;
+}
+
+.contatos-titulo h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+.mapa iframe {
+    width: 600px;
+    height: 300px;
+    border: 0;
+    margin: 30px auto;
+}
+
+.box-contatos {
+    width: 450px;
+    margin: 30px auto;
+    background: #604829;
+    padding: 10px 10px;
+}
+
+.box-contatos p {
+    margin: 6px 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.parallax-cafeteria {
+    height: 100vh;
+    background-image: url("img/cafeteria.jpg");
+    padding-top: 90px;
+}
+
+.horarios-conteudo {
+    width: 680px;
+    margin: 0px auto;
+}
+
+.horarios-conteudo h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.horarios-conteudo ul {
+    width: 500px;
+    margin: 70px auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.horarios-conteudo li {
+    width: 500px;
+    position: relative;
+    height: 36px;
+    padding: 8px 0;
+}
+
+.horarios-conteudo li h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.horarios-conteudo li p {
+    margin: 0;
+    color: #b9b9b9;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+
+.horarios-conteudo li div {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: #b9b9b9;
+    margin: 0 auto;
+}
+
+.horarios-conteudo li span {
+    color: #c4a47c;
+    font-weight: 800;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+#rodape {
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    padding: 18px 10px 20px 10px;
+    position: relative;
+}
+
+.texto-destaque {
+    color: #c4a47c;
+}
+
+#rodape p {
+    margin: 5px 0;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.seta-topo {
+    width: 46px;
+    position: absolute;
+    bottom: 60px;
+    right: 35px;
+}
+
+.seta-topo img {
+    width: 46px;
+    display: block;
+}
